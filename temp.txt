@@ -1,0 +1,7 @@
+file=dir('E:\SOM\somtoolbox\siftgeo\100000.siftgeo');
+for n=1:length(file)
+    temp=siftgeo_read('E:\SOM\somtoolbox\siftgeo\100000.siftgeo')
+    dlmread(['E:\new\',file(n).name],' ',0,1);
+    eval([file(n).name(1:end-4),'=temp;'])
+end
+

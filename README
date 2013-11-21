@@ -1,0 +1,19 @@
+This repository is the programs used and created for the USYD Master of IT 12 cp project.
+
+BELONGS TO: Yafei Sui
+
+
+basic training and retrieval process:
+1. som_retrieval.m
+2. dataprocess_origin.m
+3. invertedindices.m
+4. run eval program of holidays.
+
+Simple geometric constrain program:
+1. som_retrieval_geo.m
+2. trainmap2.m
+3. som_dataprocess.m
+4. invertedindices.m
+5. run eval program of holidays.
+
+the variables may need to be changed to suite different situations.
